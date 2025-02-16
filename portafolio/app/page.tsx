@@ -10,7 +10,7 @@ import Experience from './components/Experience';
 
 const HomePage = () => {
 
-  const email = "hola@markelramiro.com";
+  const email = "ianeduardomoreno98@gmail.com";
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {

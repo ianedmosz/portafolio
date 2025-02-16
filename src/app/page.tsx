@@ -10,7 +10,7 @@ import Experience from './components/Experience';
 
 const HomePage = () => {
 
-  const email = "hola@markelramiro.com";
+  const email = "ianeduardomoreno98@gmail.com";
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
@@ -45,13 +45,13 @@ const HomePage = () => {
         <div className="absolute top-1/2 left-2/3 w-32 h-32 bg-indigo-100 rounded-full mix-blend-multiply blur-2xl transform -translate-y-1/2 animate-move md:w-64 md:h-64 lg:w-96 lg:h-96"></div>
         {/* Contenido */}
         <img
-          src="/perfil-markel.jpg"
+          src="/ian.jpg"
           alt="Avatar"
           className="relative z-10 w-24 h-24 rounded-full mb-4 md:w-32 md:h-32"
         />
-        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 relative z-10">Markel Ramiro</h1>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 relative z-10">Ian Moreno</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
-        Impulsado por la IA, el Desarrollo Backend y Soluciones en la Nube | Emprendedor.
+        El mas insano de los insanos.
         </p>
         {/* Sección de Contacto */}
         <div className="flex items-center space-x-4 mt-12 relative z-10 bg-zinc-200/10 p-2 rounded-lg border border-[#e7e7e775]">
@@ -64,7 +64,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="flex space-x-8 mt-8 relative z-10">
-          <a href="https://github.com/Riemann-def" className="text-slate-900 hover:text-blue-500">
+          <a href="https://github.com/ianedmosz" className="text-slate-900 hover:text-blue-500">
             <FaGithub size={52} />
           </a>
           <a href="https://www.linkedin.com/in/markel-ramiro-vaquero-92530319b/" className="text-slate-800 hover:text-blue-500">
